@@ -7,7 +7,23 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "gridsome": "^0.7.0",
-    "sharp": "^0.29.3"
+    "@gridsome/source-filesystem": "^0.6.2",
+    "@gridsome/transformer-remark": "^0.6.4",
+    "gridsome": "^0.7.23",
+    "sharp": "^0.29.3",
+    "vue-disqus": "^4.0.1"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.5.13",
+    "chokidar": "^3.5.3",
+    "sass": "^1.83.0",
+    "sass-loader": "^10.5.2",
+    "style-resources-loader": "^1.5.0",
+    "vue-loader": "^17.3.1",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.3.3"
   }
 }
