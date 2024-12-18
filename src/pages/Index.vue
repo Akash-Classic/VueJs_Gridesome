@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    Index page
+   
   </Layout>
 </template>
 
