@@ -31,6 +31,9 @@ module.exports = {
       use: "@gridsome/transformer-remark",
     },
   ],
+  build: {
+    ssr: false,
+  },
   templates: {
     Post: "/blog/:title",
   },
